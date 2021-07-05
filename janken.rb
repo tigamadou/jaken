@@ -51,7 +51,7 @@ class Janken
     end
   end
 end
-#
+
 class GameStart
   def self.jankenpon
     
@@ -67,5 +67,5 @@ class GameStart
     end
   end
 end
-#
+
 GameStart.jankenpon
