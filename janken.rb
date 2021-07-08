@@ -18,9 +18,9 @@ class Player
   def options
     
     puts "****************"
-    puts "* 0 * Rock *****"
-    puts "* 1 * Scissors *"
-    puts "* 2 * Paper ****"
+    puts "* 0 * Goo *****"
+    puts "* 1 * Choki *"
+    puts "* 2 * Par ****"
     puts "****************"
   end
 end
@@ -35,7 +35,7 @@ end
 class Janken
   def pon (player_hand, enemy_hand)
     
-    janken = ["Rock", "Scissors", "Paper"]
+    janken = ["Goo", "Choki", "Par"]
     
     puts "Your hand is #{janken[player_hand]}."
     puts "The opponent's hand is #{janken[enemy_hand]}."
